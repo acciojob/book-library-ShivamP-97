@@ -1,1 +1,65 @@
 /*  your css code here. If applicable */
+/* Page Background */
+body {
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+/* Book Library Container */
+.book-library {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+/* Library Title */
+.library-title {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Book Card */
+.book {
+  background-color: #f4f4f4;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Book Image */
+.book img {
+  max-width: 200px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Book Title */
+.book h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+/* Author Name */
+.book .author {
+  color: #777777;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+/* Price Box */
+.book .price {
+  background-color: #2ecc71;
+  color: #ffffff;
+  padding: 8px;
+  font-weight: bold;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 3px;
+}
