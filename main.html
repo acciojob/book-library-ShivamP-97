@@ -1,40 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Book Library</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-  <div class="book-library">
-    <h2 class="library-title">Book Library</h2>
-
-    <!-- Book 1 -->
-    <div class="book">
-      <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg" alt="Spy in the Amber">
-      <h3>SPY IN THE AMBER</h3>
-      <p class="author">BY Manohar Malgonkar</p>
-      <div class="price">Rs. 299</div>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* your css code here. If applicable */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: arial;
+      }
+      body {
+        background-color: #f8f8f8;
+      }
+      .book-library {
+        background-color: #ffffff;
+      }
+      .book {
+        padding: 20px;
+        text-align: center;
+        margin-top: 30px;
+      }
+      h1 {
+        text-align: center;
+        padding: 30px;
+      }
+      h2 {
+        text-transform: uppercase;
+        text-align: left;
+      }
+      p {
+        color: #777777;
+        text-align: left;
+      }
+      .book > div {
+        background-color: #2ecc71;
+        height: 5vh;
+        width: 96vw;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+		color: white;
+      }
+      .book > div > button {
+        background: none;
+        border: none;
+        color: white;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+      }
+      button {
+        background-color: #2ecc71;
+        height: 5vh;
+        width: 96vw;
+        border-radius: 10px;
+        border: none;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="book-library">
+      <h1>Book Library</h1>
+      <div class="book">
+        <img
+          src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg"
+          alt="img1"
+        />
+        <h2>Spy in the Amber</h2>
+        <p>By Manohar Malgonkar</p>
+        <div>
+          <button type="submit" value="Rs 299">Rs 299</button>
+        </div>
+      </div>
+      <div class="book">
+        <img
+          src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg"
+          alt="img2"
+        />
+        <h2>Sacred Games</h2>
+        <p>ByVikramChandra</p>
+        <div>
+          <button type="submit" value="Rs 199">Rs 199</button>
+        </div>
+      </div>
+      <div class="book">
+        <img
+          src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg"
+          alt="img3"
+        />
+        <h2>Byomkesh Bakshi</h2>
+        <p>By Sharadindu Bandyopadhyay</p>
+        <div>
+          <button type="submit" value="Rs 249">Rs 249</button>
+        </div>
+      </div>
     </div>
-
-    <!-- Book 2 -->
-    <div class="book">
-      <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg" alt="Sacred Games">
-      <h3>Sacred Games</h3>
-      <p class="author">by Vikram Chandra</p>
-      <div class="price">Rs. 199</div>
-    </div>
-
-    <!-- Book 3 -->
-    <div class="book">
-      <img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg" alt="Byomkesh Bakshi">
-      <h3>BYOMKESH BAKSHI</h3>
-      <p class="author">By Sharadindu Bandyopadhyay</p>
-      <div class="price">Rs. 249</div>
-    </div>
-
-  </div>
-
-</body>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
 </html>
